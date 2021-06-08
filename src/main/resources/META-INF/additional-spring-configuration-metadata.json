@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "creature.primary-bean-type",
+      "type": "java.lang.String",
+      "description": "Primary type for Creature bean."
+  }
+] }
