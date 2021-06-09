@@ -1,14 +1,14 @@
 package com.janwee.springinaction.assembling;
 
-import com.janwee.springinaction.model.ACondition;
-import com.janwee.springinaction.model.Source;
+import com.janwee.springinaction.assembling.model.ACondition;
+import com.janwee.springinaction.assembling.model.Source;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Conditional;
 import org.springframework.context.annotation.Configuration;
 
-import static com.janwee.springinaction.model.Fruit.Strawberry;
-import static com.janwee.springinaction.model.Size.Middle;
-import static com.janwee.springinaction.model.Sugar.Quarter;
+import static com.janwee.springinaction.assembling.model.Fruit.Strawberry;
+import static com.janwee.springinaction.assembling.model.Size.Middle;
+import static com.janwee.springinaction.assembling.model.Sugar.Quarter;
 
 @Configuration
 public class ConditionSourceBeanConfig {

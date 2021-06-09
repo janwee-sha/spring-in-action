@@ -1,4 +1,4 @@
-package com.janwee.springinaction.model;
+package com.janwee.springinaction.assembling.model;
 
 //An interface of creature.
 public interface Creature {

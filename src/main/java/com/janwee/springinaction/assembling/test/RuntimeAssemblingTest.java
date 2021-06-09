@@ -1,7 +1,7 @@
 package com.janwee.springinaction.assembling.test;
 
 import com.janwee.springinaction.assembling.RuntimeAssemblingConfig;
-import com.janwee.springinaction.model.Creature;
+import com.janwee.springinaction.assembling.model.Creature;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

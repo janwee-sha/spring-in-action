@@ -1,4 +1,4 @@
-package com.janwee.springinaction.model;
+package com.janwee.springinaction.assembling.model;
 
 import org.springframework.context.annotation.Condition;
 import org.springframework.context.annotation.ConditionContext;

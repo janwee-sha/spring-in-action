@@ -1,6 +1,6 @@
 package com.janwee.springinaction.assembling.test;
 
-import com.janwee.springinaction.model.Creature;
+import com.janwee.springinaction.assembling.model.Creature;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

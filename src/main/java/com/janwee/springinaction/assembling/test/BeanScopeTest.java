@@ -1,7 +1,7 @@
 package com.janwee.springinaction.assembling.test;
 
-import com.janwee.springinaction.model.Computer;
-import com.janwee.springinaction.model.Phone;
+import com.janwee.springinaction.assembling.model.Computer;
+import com.janwee.springinaction.assembling.model.Phone;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

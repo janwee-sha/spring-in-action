@@ -1,14 +1,14 @@
 package com.janwee.springinaction.assembling;
 
-import com.janwee.springinaction.model.Source;
+import com.janwee.springinaction.assembling.model.Source;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-import static com.janwee.springinaction.model.Fruit.*;
-import static com.janwee.springinaction.model.Size.Big;
-import static com.janwee.springinaction.model.Size.Small;
-import static com.janwee.springinaction.model.Sugar.*;
+import static com.janwee.springinaction.assembling.model.Fruit.*;
+import static com.janwee.springinaction.assembling.model.Size.Big;
+import static com.janwee.springinaction.assembling.model.Size.Small;
+import static com.janwee.springinaction.assembling.model.Sugar.*;
 
 @Configuration
 public class SourceBeanConfig {

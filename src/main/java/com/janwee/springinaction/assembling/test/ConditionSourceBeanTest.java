@@ -1,7 +1,7 @@
 package com.janwee.springinaction.assembling.test;
 
 import com.janwee.springinaction.assembling.ConditionSourceBeanConfig;
-import com.janwee.springinaction.model.Source;
+import com.janwee.springinaction.assembling.model.Source;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -10,9 +10,9 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ContextConfiguration;
 
-import static com.janwee.springinaction.model.Fruit.Strawberry;
-import static com.janwee.springinaction.model.Size.Middle;
-import static com.janwee.springinaction.model.Sugar.Quarter;
+import static com.janwee.springinaction.assembling.model.Fruit.Strawberry;
+import static com.janwee.springinaction.assembling.model.Size.Middle;
+import static com.janwee.springinaction.assembling.model.Sugar.Quarter;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
